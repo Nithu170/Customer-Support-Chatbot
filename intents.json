@@ -1,0 +1,159 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "Hey",
+          "How are you?",
+          "Good morning",
+          "Good evening",
+          "What's up?",
+          "Is anyone there?"
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi there! How can I help you?",
+          "Greetings! How can I assist you?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "I am leaving",
+          "Have a nice day",
+          "Talk to you later"
+        ],
+        "responses": [
+          "Goodbye! Have a wonderful day!",
+          "See you soon! Take care!",
+          "Farewell! Looking forward to assisting you again!"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thank you",
+          "Thanks",
+          "Thanks for your help",
+          "I appreciate your help",
+          "Thanks a lot"
+        ],
+        "responses": [
+          "You're welcome! Feel free to reach out if you need more assistance.",
+          "Glad to help! Let me know if you need anything else.",
+          "Anytime! I'm happy to assist you."
+        ]
+      },
+      {
+        "tag": "order_status",
+        "patterns": [
+          "Where is my order?",
+          "What is the status of my order?",
+          "Has my order been shipped?",
+          "When will my order arrive?",
+          "Can you update me on my order?"
+        ],
+        "responses": [
+          "To check the status of your order, follow these steps:\n1. Log in to your account.\n2. Go to the 'Orders' section.\n3. Select the order you want to track.\n4. You will find the current status and tracking details of your order.",
+          "If you haven't received your tracking number, it may still be processing. You will get a notification once it's shipped."
+        ]
+      },
+      {
+        "tag": "returns",
+        "patterns": [
+          "How do I return my order?",
+          "What is the return policy?",
+          "Can I return a product?",
+          "How long do I have to return my product?",
+          "I want to return my order"
+        ],
+        "responses": [
+          "To return an item, follow these steps:\n1. Log in to your account.\n2. Navigate to the 'Order History' section.\n3. Select the order and item you want to return.\n4. Choose the reason for return and confirm.\n5. You will receive a return label, which you can print out and attach to the package. Once received, we will process your return and refund within [return time].",
+          "You can return items within [return window]. Please make sure the product is unused and in its original packaging."
+        ]
+      },
+      {
+        "tag": "refunds",
+        "patterns": [
+          "How do I get a refund?",
+          "Can I get a refund for my order?",
+          "How long does a refund take?",
+          "When will I get my refund?",
+          "I need a refund for my purchase"
+        ],
+        "responses": [
+          "To request a refund, follow these steps:\n1. Log in to your account.\n2. Go to the 'Order History' section.\n3. Select the order you want a refund for.\n4. Click on 'Request Refund' and fill out the necessary details.\n5. After your return is processed, the refund will be issued to your original payment method. It typically takes [refund time].",
+          "Refunds are processed once the return is confirmed. The time for the refund may vary, but you will receive a notification once it's complete."
+        ]
+      },
+      {
+        "tag": "account_help",
+        "patterns": [
+          "I forgot my password",
+          "How do I reset my password?",
+          "Can you help me with my account?",
+          "I can't access my account",
+          "How can I change my email address?"
+        ],
+        "responses": [
+          "To reset your password, please follow these steps:\n1. Go to the login page and click on 'Forgot Password'.\n2. Enter the email address associated with your account.\n3. You will receive a password reset link in your email.\n4. Click on the link and create a new password.",
+          "If you're having trouble logging in, you can also try clearing your browser's cache or using a different device."
+        ]
+      },
+      {
+        "tag": "technical_support",
+        "patterns": [
+          "I'm having technical issues",
+          "My device isn't working properly",
+          "The website is not loading",
+          "I'm experiencing an error",
+          "Can you help me fix a bug?"
+        ],
+        "responses": [
+          "To troubleshoot technical issues, try these steps:\n1. Clear your browser cache and cookies.\n2. Restart your device or refresh the page.\n3. Make sure your internet connection is stable.\n4. If you're still experiencing issues, let us know the error code or describe the issue in detail so we can assist further."
+        ]
+      },
+      {
+        "tag": "order_modification",
+        "patterns": [
+          "Can I change my order?",
+          "I want to modify my order",
+          "Can I add items to my order?",
+          "Can I cancel my order?"
+        ],
+        "responses": [
+          "Order modifications are only allowed within [modification window]. Here's what you can do:\n1. Log in to your account.\n2. Go to your 'Order History'.\n3. Select the order you want to modify.\n4. If the modification option is available, you'll be able to add/remove items or update your delivery address.",
+          "If your order is already processed or shipped, modifications are not possible. However, you can return the item after receiving it."
+        ]
+      },
+      {
+        "tag": "shipping",
+        "patterns": [
+          "How much is shipping?",
+          "When will my order be delivered?",
+          "What are your shipping options?",
+          "Do you ship internationally?",
+          "Can I choose my shipping method?"
+        ],
+        "responses": [
+          "To check the shipping options and charges, follow these steps:\n1. Go to the checkout page.\n2. Enter your delivery address.\n3. The system will calculate shipping charges based on your location.\n4. You can choose from the available shipping methods such as Standard, Expedited, or Express.",
+          "We offer international shipping to selected countries. Please enter your address at checkout to see if we can ship to your location."
+        ]
+      },
+      {
+        "tag": "noanswer",
+        "patterns": [],
+        "responses": [
+          "Sorry, I didn't quite understand that. Could you please rephrase?",
+          "I'm not sure how to help with that. Could you clarify?",
+          "Sorry, I couldn't find an answer to that. Could you ask something else?"
+        ]
+      }
+    ]
+  }
+  
