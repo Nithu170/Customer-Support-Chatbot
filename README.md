@@ -70,6 +70,9 @@ npm start
 Open http://localhost:3000/ in your browser.
 Start a conversation with the chatbot! 🎉
 
+(or)
+Download the complete project connect with xamp go to cmd and give cd file location+enter+cd app.py enter it will run in localhost 
+
 **5.Future Enhancements:**
 
 ✔ Improve chatbot accuracy with deep learning models (Transformers, BERT).
